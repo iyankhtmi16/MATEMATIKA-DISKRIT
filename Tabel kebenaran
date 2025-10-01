@@ -1,0 +1,50 @@
+OR
+>>> print("p", True, ", q", True, "=> p OR q", True or True)
+
+p = True, q Truep OR q = True P
+
+>>> print("p", True, ", q", False, "> p OR q", True or False)
+
+p = True, q False p OR q = True
+
+>>> print("p", False, ", q", True, "=> p OR q", False or True)
+
+pFalse, q True P OR q = True
+
+>>>> print("p", False, ", q", False, "=> p OR q", False or False)
+
+p = False, q False P OR q = False
+
+AND
+>>> print("p", True, ", q", True, "=> p AND q", True and True)
+
+p = True, q Truep AND q = True
+
+>>>> print("p=", True, ", q", False, "=> p AND q", True and False)
+
+p = True, q False => p AND q = False
+
+>>> print("p", False, q", True, "=> p AND q", False and True)
+
+p = False, q True => p AND q = False
+
+>>> print("p", False, ", q", False, "=> p AND q", False and False)
+
+p = False, q False => p AND q = False
+
+OR NOT 
+>>> print("p =", True, q=", True, "=> p V ~q=", True or not True)
+
+p = True, q True => p V ~q = True
+
+>>> print("p=", True, q=", False, "=> p V ~q=", True or not False)
+
+p = True, q False > p V ~q= True
+
+>>> print("p", False, q=", True, "=> p V ~q=", False or not True)
+
+pFalse, q True => p V ~q = False 
+
+>>> print("p", False," q=", False, "=> p V ~q=", False or not False)
+
+p = False, q= False => p V ~q = True
