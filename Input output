@@ -1,0 +1,4 @@
+>>>nama = input("masukan nama:")
+masukkan nama: iyan
+>>>print("HALLO",nama)
+HALLO iyan
