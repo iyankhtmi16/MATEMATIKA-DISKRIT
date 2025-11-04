@@ -1,0 +1,14 @@
+>>> #list_python
+>>>
+>>> x_list = [0, 1, 2, 3, 4]
+>>> print(2 * x_list + 3) #ERROR
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate list (not "int") to list
+>>>
+>>> #array
+>>>
+>>> import numpy as np
+>>> x_array = np.array([0, 1, 2, 3, 4])
+>>> print(2 * x_array + 3) #LANGSUNG BEKERJA
+[ 3  5  7  9 11]
