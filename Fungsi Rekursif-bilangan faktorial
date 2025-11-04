@@ -1,0 +1,13 @@
+>>> #rumus faktorial
+>>> #n! = n x (n - 1)!
+>>>
+>>> def faktorial(n):
+...     if n == 0 or n == 1:
+...             return 1
+...     else:
+...             return n * faktorial(n - 1)
+...
+>>> angka = int(input("Masukkan bilangan: "))
+Masukkan bilangan: 5
+>>> print(f"Faktorial dari {angka} adalah {faktorial(angka)}")
+Faktorial dari 5 adalah 120
