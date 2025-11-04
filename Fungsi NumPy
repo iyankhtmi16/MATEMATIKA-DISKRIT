@@ -1,0 +1,10 @@
+>>> import numpy as np
+>>>
+>>> print(np.arange(0, 10, 2))    #deret dengan step
+[0 2 4 6 8]
+>>> print(np.linspace(0, 1, 5))   #5 titik antara 0 dan 1
+[0.   0.25 0.5  0.75 1.  ]
+>>> print(np.zeros(5))            #array berisi 0
+[0. 0. 0. 0. 0.]
+>>> print(np.ones(3))             #array berisi 1
+[1. 1. 1.]
