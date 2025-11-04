@@ -1,0 +1,12 @@
+>>> import numpy as np
+>>>
+>>> #membuat array 1D
+>>> x = np.array([1, 2, 3, 4, 5])
+>>> print(x)
+[1 2 3 4 5]
+>>>
+>>> #membuat array 2D
+>>> m = np.array([[1, 2], [3, 4]])
+>>> print(m)
+[[1 2]
+ [3 4]]
